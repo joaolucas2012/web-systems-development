@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Questão 1</title>
+  <script type="text/javascript">
+
+    function FindBiggerWord(phrase) {
+      words = phrase.split(" ");
+      let bigger = "";
+      var size = 0;
+      for (let i = 0; i < words.length; i++) {
+        if (words[i].length > size) {
+          bigger = words[i];
+          size = words[i].length;
+        }
+      }
+      return bigger;
+    }
+  </script>
+</head>
+
+<body>
+  <!--  1) Escreva um script que leia uma string e informe a maior palavra contida na string. -->
+  <p>
+    <script type="text/javascript">
+      const frase = prompt("Digite uma frase");
+      const BigWord = FindBiggerWord(frase);
+      document.write("<h1> A maior palavra da frase é '" + BigWord + ".'</h1>");
+    </script>
+  </p>
+</body>
+
+</html>

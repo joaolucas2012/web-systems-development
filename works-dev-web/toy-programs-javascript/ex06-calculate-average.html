@@ -1,0 +1,40 @@
+<!-- 9. Leia valores numéricos e os coloque num array. A leitura termina quando o valor 0 for
+digitado. Em seguida, calcule a média dos valores digitados e informe o usuário. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício 6</title>
+  <script type="text/javascript">
+    function average(array) {
+      let sum = 0;
+      for (let i in array) {
+        sum += array[i];
+      }
+      return sum / (array.length - 1);
+    }
+  </script>
+</head>
+
+<body>
+  <script type="text/javascript">
+    var number;
+    const array = [];
+    while (number != 0) {
+      number = parseInt(prompt("Digite um número:\nSó não digite 0, senão dá errado!"));
+      array.push(number);
+    }
+    document.write("<h1>Eu disse pra não digitar zero! :-(</h1>" + "<br/><h1>Pegue seus números de volta!</h1>"
+      + "<br/>[ ");
+    for (let i = 0; i < (array.length - 1); i++) {
+      document.write(array[i] + "  ");
+    }
+    document.write("]" + "<br/><br/>");
+    document.write(`<h3>A média entre os números digitados é: ${average(array)}</h3>`);
+  </script>
+</body>
+
+</html>
