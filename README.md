@@ -1,2 +1,18 @@
-# web-systems-development
-This repository contains a hand of solving-problems codes using Javascript Language and a little bit of html.
+This repository contains all content of the discipline COM222 Web Development from UNIFEI (Federal University of Itajubá)
+
+HTML
+CSS
+JavaScript
+JQuery
+FRONTEND:
+
+Angular
+typescritp
+BACKEND:
+
+expressJS
+nodeJS
+DATABASE:
+
+Relational - MySQL
+Non-Relational - MongoDB
