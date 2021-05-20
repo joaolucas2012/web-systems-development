@@ -3,7 +3,6 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title> Exercício Form </title>
-  <script src="./script.js" defer></script>
 </head>
 
 <body bgcolor="#c8d8f8">
@@ -19,12 +18,12 @@
           <td valign=top>
             <b>Nome</b>
             <br>
-            <input type="text" name="firstName" size=15>
+            <input type="text" name="firstName" size=20 placeholder="ex: João Bento da Silva">
           </td>
           <td valign=top>
             <b>Idade</b>
             <br>
-            <input type="text" name="lastName" size=15>
+            <input type="text" name="lastName" size=15 placeholder="ex: 12">
           </td>
         </tr>
 
@@ -32,7 +31,7 @@
           <td valign=top colspan=2>
             <b>E-Mail</b>
             <br>
-            <input type="text" name="email" size=20>
+            <input type="text" name="email" size=20 placeholder="ex: JoãoBento@gmail.com">
             <br>
           </td>
         </tr>
@@ -63,13 +62,15 @@
 
         <tr>
           <td align=center colspan=2>
-            <input type="button" value="Submit">
+            <input type="submit" value="Submit">
           </td>
         </tr>
 
       </table>
     </center>
   </form>
+
+  <script src="../validate-form/script.js"></script>
 </body>
 
 </html>
