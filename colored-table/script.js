@@ -1,26 +1,26 @@
-const columnPages = document.getElementsByClassName("column-pages");
-const columnBook = document.getElementsByClassName("column-book");
+const colPages = document.getElementsByClassName("pages");
+const colBooks = document.getElementsByClassName("books");
 
-columnPages[0].addEventListener("click", (event) => {
+colPages[0].addEventListener("click", (event) => {
   event.preventDefault();
-  for (let i = 0; i < columnPages.length; i++) {
-    if (columnBook[i].style.backgroundColor != "lightblue") {
-      columnPages[i].style.backgroundColor = "lightgreen";
+  for (let i = 0; i < colPages.length; i++) {
+    if (colBooks[i].style.backgroundColor != "lightblue") {
+      colPages[i].style.backgroundColor = "lightgreen";
     } else {
-      columnBook[i].style.backgroundColor = "white";
-      columnPages[i].style.backgroundColor = "lightgreen";
+      colBooks[i].style.backgroundColor = "white";
+      colPages[i].style.backgroundColor = "lightgreen";
     }
   }
 });
 
-columnBook[0].addEventListener("click", (e) => {
-  e.preventDefault();
-  for (let i = 0; i < columnBook.length; i++) {
-    if (columnPages[i].style.backgroundColor != "lightgreen") {
-      columnBook[i].style.backgroundColor = "lightblue";
+colBooks[0].addEventListener("click", (event) => {
+  event.preventDefault();
+  for (let i = 0; i < colBooks.length; i++) {
+    if (colPages[i].style.backgroundColor != "lightgreen") {
+      colBooks[i].style.backgroundColor = "lightblue";
     } else {
-      columnPages[i].style.backgroundColor = "white";
-      columnBook[i].style.backgroundColor = "lightblue";
+      colPages[i].style.backgroundColor = "white";
+      colBooks[i].style.backgroundColor = "lightblue";
     }
   }
 });
