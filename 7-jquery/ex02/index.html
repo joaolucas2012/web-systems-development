@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <form id="formFeiticos">
+    <center>
+      <div class="container">
+        <table cellpadding=4 cellspacing=2 border=0>
+          <th id="titulo" colspan=2>
+            <font size=5>MEUS FEITIÇOS</font>
+          </th>
+          <br>
+          <tr id="row1">
+            <td>
+              <b>Feitiço:</b>
+              <input type="text" size=21 placeholder="ex: Shazam">
+            </td>
+            <td>
+              <b>Nível:</b>
+              <input type="text" size=21 placeholder="ex: Fácil, Médio, Difícil">
+            </td>
+            <td>
+              <button type="submit" id="btn">+</button> <br>
+            </td>
+          </tr>
+        </table>
+
+      </div>
+
+      <br><br><br>
+
+      <div>
+        <table id="catalogo" cellpadding=4 cellspacing=2 border=1>
+          <tr>
+            <th>
+              <font size=5>Feitiço</font>
+            </th>
+            <th>
+              <font size=5>Nível</font>
+            </th>
+          </tr>
+
+        </table>
+      </div>
+    </center>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
