@@ -32,7 +32,7 @@ placeIntoHtml = function (info) {
     `<p><b>Condição Atual: ${climaAtual}</b></p>
         <p><b>Temperatura Atual: ${temperaturaAtual} °C</b></p>
         <p><b>Temperatura máxima: ${temperaturaMaxima} °C</b></p>
-        <p><b>Temperatura minima: ${temperaturaMinima}° C</b></p>
+        <p><b>Temperatura minima: ${temperaturaMinima} °C</b></p>
         <br><br>
         <p>&copy; 2021 João Lucas. All rights reserved.</p>
         `
