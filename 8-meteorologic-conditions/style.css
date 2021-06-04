@@ -1,0 +1,58 @@
+html,
+body{
+  background-color: orangered;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  width:12%;
+  font-size:15pt;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+input{
+  display: block;
+  margin: 10px auto;
+  width:20%;
+  font-size:15pt;
+  font-family: monospace;
+}
+#btnWeather{
+  color: white;
+  background-color:black;
+  cursor: pointer;
+  border-radius:10px;
+}
+#btnWeather:hover{
+  background-color:blue;
+}
+#paragraph b{
+font-family: monospace;
+font-size:20pt;
+color: white;
+}
+p {
+  text-align: center;
+}
+#input{
+  font-size: 12pt;
+}
+#result{
+  width:98vw;
+  padding:3px;
+  background-color:black;
+}
+#result p{
+  font-family: monospace;
+  font-size:15pt;
+  color: white;
+}
+#footer{
+  background-color:black;
+}
+#footer p{
+  font-family: monospace;
+  font-size:15pt;
+  color: white;
+}
